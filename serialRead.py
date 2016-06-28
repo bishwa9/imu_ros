@@ -51,14 +51,3 @@ class serial_read:
         except Exception, e:
             print "Error reading data:", str(e)
         return data_
-
-#Example
-ser = serial_read('/dev/tty.usbserial-AL00WV7C', 115200)
-ser.open_port()
-ser.prepare_port()
-num = 0
-while num < 1500:
-    data_read = ser.read_data(3)
-    print num, data_read
-    num += 1
-ser.close_port()
