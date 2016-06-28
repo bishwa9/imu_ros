@@ -1,3 +1,5 @@
 Accelerometer_Scale 0
 Gyro_Scale 0
 gravity 9.8
+R_a 0.1 0.1 0.1
+R_g 0.2 0.2 0.2
